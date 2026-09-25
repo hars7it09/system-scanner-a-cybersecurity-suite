@@ -1,0 +1,3 @@
+# Update this file to the local customtkinter installation path for your machine.
+# Example: <venv>\Lib\site-packages\customtkinter
+# Current workspace is intentionally path-agnostic to avoid stale machine-specific paths.

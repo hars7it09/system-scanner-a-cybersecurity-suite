@@ -1,0 +1,70 @@
+============================================================
+  Testing basic_malware_scan (Full System Scan)
+============================================================
+  Status : ok
+  Risk   : High
+  Score  : 29/100
+  Procs  : 0
+  Startup: 0
+  Files  : 15
+  Dirs   : 3
+    - C:\Users\LENOVO\Downloads
+    - C:\Users\LENOVO\Documents
+    - C:\Users\LENOVO\AppData\Local\Temp
+
+  Flagged files: 15
+    [SUSPICIOUS] android-studio-panda2-windows.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 1312 MB (> 50 MB).
+    [SUSPICIOUS] Antigravity.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 166 MB (> 50 MB).
+    [SUSPICIOUS] CursorUserSetup-x64-2.5.20.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 175 MB (> 50 MB).
+    [SUSPICIOUS] DNA_20251017210940_9.0.0_pub_Launcher_Installer.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 399 MB (> 50 MB).
+    [SUSPICIOUS] GRYPHLINK_1.0.2_6_6_endfield.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 159 MB (> 50 MB).
+    [SUSPICIOUS] VirtualBox-7.2.4-170995-Win.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 168 MB (> 50 MB).
+    [SUSPICIOUS] WutheringWaves_overseas_setup_2.3.0.0.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 181 MB (> 50 MB).
+    [SUSPICIOUS] WutheringWaves_overseas_setup_2.5.0.1.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 209 MB (> 50 MB).
+    [SUSPICIOUS] xampp-windows-x64-8.2.12-0-VS16-installer.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 150 MB (> 50 MB).
+    [SUSPICIOUS] AntigravitySetup-stable-135ccf460c67c4b900dc10aa71c978f27d78601c.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 164 MB (> 50 MB).
+    [SUSPICIOUS] CodeSetup-stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 125 MB (> 50 MB).
+    [SUSPICIOUS] CodeSetup-stable-2.5.26.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 175 MB (> 50 MB).
+    [SUSPICIOUS] CodeSetup-stable-2.6.18.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 171 MB (> 50 MB).
+    [SUSPICIOUS] CodeSetup-stable-2.5.25.exe
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+      - Unusually large executable: 175 MB (> 50 MB).
+    [HIGH RISK] applypatch.exe
+      - Filename contains suspicious keyword(s): patch
+      - Executable (.exe) found in high-risk directory (Temp / Downloads / Desktop).
+
+============================================================
+  Testing scan_path on project folder (should be clean)
+============================================================
+  Status : ok
+  Risk   : Low
+  Files  : 0
+  OK - No files flagged in project folder (whitelist working)
+
+Done.
